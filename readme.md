@@ -24,7 +24,7 @@ It features a typing effect in the header, a modal with a special offer, a secti
 ## Installation and Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/travel-landing-page.git
+   git clone https://github.com/Joss-RGB/Travel-Landing-Page.git
 
 2. Open index.html in your browser or use LiveServer from VSCode.
 
@@ -32,14 +32,6 @@ It features a typing effect in the header, a modal with a special offer, a secti
 ![alt text](/Screenshots/image.png)
 ![alt text](/Screenshots/image-1.png)
 ![alt text](/Screenshots/image-2.png)
-
-## Live Demo
-You can enable GitHub Pages to host the project online:
-1. Go to your repository on GitHub.
-2. Navigate to Settings → Pages.
-3. Under Branch, select main and /root.
-4. Save. After a few minutes, your site will be available at:
-   - https://YOUR_USERNAME.github.io/travel-landing-page
 
 # #License
 This project is licensed under the MIT License.
