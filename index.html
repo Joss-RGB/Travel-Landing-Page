@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="screen screen-bg active" data-screen="1">
+        <div class="overlay">
+            <h1 id="typing-text"></h1>
+            <button id="offer-btn">Special Offer</button>
+            <form>
+                <input type="email" placeholder="Enter your email" aria-label="Email">
+                <button type="submit">Join us traveler</button>
+            </form>
+        </div>
+        <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <div class="modal-content glass">
+                <span id="close" aria-label="Close modal">&times;</span>
+                <h2 id="modal-title">Exclusive Travel Deal!</h2>
+                <p>Book now and get 30% off your next adventure.</p>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">▼</div>
+    </header>
+
+    <main>
+        <section class="screen screen-bg" data-screen="2">
+            <div class="destinations">
+                <h2>Popular Destinations</h2>
+                <div class="cards">
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="https://wallpapers.com/images/featured-full/fondo-de-pantalla-de-paris-ctt26p0uve9skjly.jpg"
+                                media="(min-width:768px)">
+                            <img src="https://wallpapers.com/images/featured-full/fondo-de-pantalla-de-paris-ctt26p0uve9skjly.jpg"
+                                alt="Eiffel Tower in Paris" loading="lazy">
+                        </picture>
+                        <p>Paris</p>
+                    </article>
+
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="https://wallpapers.com/images/high/tokyo-dusk-cityscape-w7birjulur3idels.webp"
+                                media="(min-width:768px)">
+                            <img src="https://wallpapers.com/images/high/tokyo-dusk-cityscape-w7birjulur3idels.webp"
+                                alt="Tokyo cityscape at dusk" loading="lazy">
+                        </picture>
+                        <p>Tokyo</p>
+                    </article>
+
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="https://wallpapers.com/images/high/statue-of-liberty-purple-sky-kfamwghj66actwvi.webp"
+                                media="(min-width:768px)">
+                            <img src="https://wallpapers.com/images/high/statue-of-liberty-purple-sky-kfamwghj66actwvi.webp"
+                                alt="Statue of Liberty in New York" loading="lazy">
+                        </picture>
+                        <p>New York</p>
+                    </article>
+
+                    <article class="card">
+                        <picture>
+                            <source srcset="https://www.101viajes.com/sites/default/files/capitolio-la-habana.jpg"
+                                media="(min-width:768px)">
+                            <img src="https://www.101viajes.com/sites/default/files/capitolio-la-habana.jpg"
+                                alt="Capitol building in Havana" loading="lazy">
+                        </picture>
+                        <p>Havana</p>
+                    </article>
+
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="https://media.istockphoto.com/id/539115110/es/foto/colosseum-in-rome-italy-y-sol-de-la-ma%C3%B1ana.jpg?s=612x612&w=0&k=20&c=S2BE7bvASd4hm6Yp0VbtvaGnnqTR4p5HJ-6RfDjR-MQ="
+                                media="(min-width:768px)">
+                            <img src="https://media.istockphoto.com/id/539115110/es/foto/colosseum-in-rome-italy-y-sol-de-la-ma%C3%B1ana.jpg?s=612x612&w=0&k=20&c=S2BE7bvASd4hm6Yp0VbtvaGnnqTR4p5HJ-6RfDjR-MQ="
+                                alt="Colosseum in Rome" loading="lazy">
+                        </picture>
+                        <p>Rome</p>
+                    </article>
+
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="https://fotografias.lasexta.com/clipping/cmsimages01/2021/07/13/AAAC5987-6C8D-48D1-9D24-F601EF1B89FA/98.jpg?crop=1920,1080,x0,y102&width=1900&height=1069&optimize=high&format=webply"
+                                media="(min-width:768px)">
+                            <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2021/07/13/AAAC5987-6C8D-48D1-9D24-F601EF1B89FA/98.jpg?crop=1920,1080,x0,y102&width=1900&height=1069&optimize=high&format=webply"
+                                alt="Sydney Opera House" loading="lazy">
+                        </picture>
+                        <p>Sydney</p>
+                    </article>
+                </div>
+            </div>
+            <div class="scroll-indicator">▼</div>
+        </section>
+
+    </main>
+
+    <footer class="screen screen-bg" data-screen="3">
+        <div class="overlay footer-full">
+            <section class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="icon-phone"></i> +1 234 567 890</li>
+                    <li><i class="icon-mail"></i> info@travelagency.com</li>
+                    <li><i class="icon-map"></i> 123 Paradise Road, Havana</li>
+                </ul>
+            </section>
+
+            <section class="footer-section">
+                <h3>Quick Links</h3>
+                <nav class="socials">
+                    <a href="#">Destinations</a>
+                    <a href="#">Special Offers</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                </nav>
+            </section>
+
+            <section class="footer-section">
+                <h3>Follow Us</h3>
+                <nav class="socials">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                </nav>
+            </section>
+
+            <section class="footer-section">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" aria-label="Email">
+                    <button type="submit">Join thousands of travelers</button>
+                </form>
+            </section>
+
+            <div class="testimonials">
+                <p>“Best trip of my life!” ★★★★★</p>
+                <p>“Amazing service and unforgettable memories.” ★★★★☆</p>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Travel Agency. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="scroll-indicator">▲</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
